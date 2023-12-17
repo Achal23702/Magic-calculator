@@ -1,0 +1,208 @@
+         /*  universal selector no need of giving colors it will give color to everyone */
+         /* *{
+    color:blue;
+}
+h3{
+    text-decoration: line-through;
+    color:red;
+}
+p{
+    color:rgb(104, 197, 11);
+    text-align: left;
+
+}
+button{
+    color:rgb(20, 19, 19);
+    background-color: rgb(150, 232, 17);
+}
+body{
+    background-color: rgb(218, 212, 40);
+}
+#h1{
+    font-weight:normal ;
+}
+#h2{
+    font-weight: bolder;
+}
+#h3{
+    font-weight:lighter;
+}
+#one{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 50px;
+}
+#para1{
+    font-size:30px ;
+}
+#para2{
+    font-size:15px;
+} */
+/* h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+#outer{
+    font-size: 25px;
+
+}
+#inner{
+font-size: 10px;
+}
+div{
+    height:50px;
+    background-color: aquamarine;
+    width: 100px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: red;
+    text-align: left;
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-top: 50px;
+} */
+/* div{
+    background-color: bisque;
+    display: inline;
+}
+button{
+    display: block;
+} */
+div{
+    height:100px;
+    width:100px;
+    border:2px solid black;
+    display:inline-block;
+    background-color: rgb(5, 154, 124)   
+}
+/* #box1{
+    position: static;
+     top:0px;  /*no change occur *
+  /*}
+#box2{
+    position:relative;
+    top: 20px;
+    left:10px;
+}
+#box3{
+    position:sticky;
+    top:500px;
+    left:20px
+}
+#box4{
+    position: fixed;
+    top:0px
+    
+    
+} */
+/* body{
+    background-image: url("oli-bekh-jZ6rWWhw_Vs-unsplash.jpg");
+    background-size: cover;
+}
+#box1{
+    background-image: url("oli-bekh-jZ6rWWhw_Vs-unsplash.jpg");
+    background-size: cover;
+} */
+/* body{
+    text-align: center;
+    background-color: white;
+}
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px,solid black;
+}
+#container{
+    width: 800px;
+    height: 200px;
+    background-color: aliceblue;
+    display:flex;
+    flex-direction: row;
+
+}
+#box1{
+    background-color: aqua;
+}
+#box2{
+    background-color: darksalmon;
+}
+#box3{
+    background-color: crimson;
+
+}
+#box4{
+    background-color: darkgray;
+} */
+/* div{
+    height: 200px;
+    width: 300px;
+    background-color: gold;
+}
+ @media (width :500px;)  {
+div{
+    background-color: black;
+
+}
+} */
+    
+/* @media( min-width :500px;)  {
+    div{
+        background-color: rgb(238, 20, 20);
+    
+    }
+    }
+        
+
+    @media( max-width :500px;)  {
+        div{
+            background-color: rgb(55, 252, 38);
+        
+        }
+        }
+             */
+             /* div{
+                height: 200px;
+                width: 200px;
+                background-color: red;
+                border: 2px solid black;
+                position: absolute;
+                top: 400px;
+                left: 200px;
+                transition: all 2s ease-in ;  */
+                /* animation-name: colorAnimate;
+                animation-duration:0.25s ;
+                /* animation-timing-function: ease-in; */
+                /*animation-delay: 0s;
+                animation-iteration-count: infinite; */
+                /* animation: colorAnimate 2s ease-in 0s infinite;
+            }
+
+            @keyframes colorAnimate{
+                0%
+                {   left: 0px;
+                    background-color: red;
+                }
+                50%{
+                    background-color: blue;
+                }
+                100%
+                {    left: 200px;
+                     background-color: yellow;
+                }
+                
+            }
+            div:hover{
+                background-color: burlywood;
+                color: aquamarine;
+                font-size: 50px;
+                /* transform: scale(2,2); 
+                transform: rotate(90deg); */
+                /* transform: translate(200px); */
+                transform: skew(50deg,50deg);
+/*                 
+            } */
+        
+                 /* */ */

@@ -1,0 +1,87 @@
+/* div{
+    background-color: blue;
+    color:white;
+}
+/* .heading{
+    color:red;
+    background-color: black;
+} */
+ /*h1,h2,h3{
+    color:red;
+    background-color: black;
+}
+button{
+     background-color:green;
+
+}
+#div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+}
+#traficlight{
+    height: 300px;
+    width: 70px;
+    background-color:gray;
+}
+#red{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: red;
+    border-width: 1px;
+    margin-top: 20px;
+    padding-left: 20px;
+    
+
+}
+#yellow{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color:yellow;
+    border-width: 1px;
+    margin-top: 20px;
+    padding-left: 20px;
+    
+
+}
+#green{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color:green;
+    border-width: 1px;
+    margin-top: 20px;
+    padding-left: 20px;
+    
+
+} */
+*{
+    margin:0;
+    color:white;
+    padding:0;
+}
+#navbar{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    border-color: white;
+    border-width: 20px;
+    text-decoration: white;
+}
+button{
+    background-color:#f08804;
+}
+#logo{
+    color:#f08804;
+    font-size: 25px;
+}
+body{
+    background-color: burlywood;
+}
+a{
+    margin-right: 200px;
+    text-decoration: none;
+}

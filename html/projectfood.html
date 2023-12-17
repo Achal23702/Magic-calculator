@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myfoodmeal.com</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        :root{
+            --navbar-height:60px;
+        }
+        #navbar{
+            display: flex;
+            align-items: center;
+
+        }
+        #navbar::before{
+            content: "";
+           background-color: black;
+           position: absolte;
+           height:100%;
+        width: 100%;
+        z-index: -1;
+        opacity:0.4 
+
+        }
+        #logo{
+
+            margin: 34px 10px;
+        }
+        #logo img{
+            margin: 3px 6px;
+            height: 56px;
+        }
+         #navbar ul{
+            
+            position: absolute left;
+        
+        }
+       
+
+        
+        #navbar ul li{
+            list-style: none;
+            font-size: 1.3rem;
+
+        }
+        #navbar ul li a{
+            display: block;
+            padding: 3px 22px;
+            text-decoration: none;
+            border-radius: 20px;
+            color: rgba(249, 240, 240, 0.751);
+            
+        }
+        #navbar ul li a:hover{
+            background-color: white;
+            color: rgba(28, 26, 26, 0.751);
+            
+        }
+        #home{
+            display: flex;
+            flex-direction: column;
+            padding: 3px 200px;
+            justify-content: center;
+            align-items: center;
+        }
+        #home::before{
+            
+        }
+
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="img2 food.jpg" alt="myfoodmeal.com" title="logo"  width="60px";>
+        </div>
+
+        <ul>
+            <li class="item"><a href="#">Home</a></li>
+            <li class="item"><a href="#"> About Us</a></li>
+            <li class="item"><a href="#"> Services</a></li>
+            <li class="item"><a href="#"> orders</a></li>
+            <li class="item"><a href="#"> Contact Us</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="h-primary"> Welcome to Myfoddiee meal!!</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta perspiciatis obcaecati saepe inventore.</p>
+        <button class="btn">Order now</button>
+    </section>
+    
+</body>
+</html>
